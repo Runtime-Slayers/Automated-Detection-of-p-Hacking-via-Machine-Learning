@@ -1,0 +1,108 @@
+{
+  "test_type": "calibration_suite",
+  "n_papers_per_corpus": 200,
+  "contamination_levels": [
+    0.0,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "caliper_results": {
+    "0.0": {
+      "ratio": 1.2222,
+      "p": 0.4119,
+      "n_caliper": 11,
+      "n_mirror": 9
+    },
+    "0.1": {
+      "ratio": 2.4444,
+      "p": 0.0147,
+      "n_caliper": 22,
+      "n_mirror": 9
+    },
+    "0.2": {
+      "ratio": 2.4167,
+      "p": 0.0058,
+      "n_caliper": 29,
+      "n_mirror": 12
+    },
+    "0.35": {
+      "ratio": 5.0,
+      "p": 0.0,
+      "n_caliper": 50,
+      "n_mirror": 10
+    },
+    "0.5": {
+      "ratio": 3.7222,
+      "p": 0.0,
+      "n_caliper": 67,
+      "n_mirror": 18
+    },
+    "0.75": {
+      "ratio": 5.2353,
+      "p": 0.0,
+      "n_caliper": 89,
+      "n_mirror": 17
+    },
+    "1.0": {
+      "ratio": 5.9,
+      "p": 0.0,
+      "n_caliper": 118,
+      "n_mirror": 20
+    }
+  },
+  "pcurve_results": {
+    "0.0": {
+      "n_sig": 98,
+      "mean_p": 0.0145,
+      "skew_logp": -1.2643,
+      "frac_below_025": 0.7551
+    },
+    "0.1": {
+      "n_sig": 112,
+      "mean_p": 0.0179,
+      "skew_logp": -1.3545,
+      "frac_below_025": 0.6786
+    },
+    "0.2": {
+      "n_sig": 122,
+      "mean_p": 0.0208,
+      "skew_logp": -1.5392,
+      "frac_below_025": 0.623
+    },
+    "0.35": {
+      "n_sig": 136,
+      "mean_p": 0.0266,
+      "skew_logp": -2.0072,
+      "frac_below_025": 0.5147
+    },
+    "0.5": {
+      "n_sig": 155,
+      "mean_p": 0.0301,
+      "skew_logp": -2.7347,
+      "frac_below_025": 0.4129
+    },
+    "0.75": {
+      "n_sig": 168,
+      "mean_p": 0.0343,
+      "skew_logp": -2.403,
+      "frac_below_025": 0.3274
+    },
+    "1.0": {
+      "n_sig": 200,
+      "mean_p": 0.0371,
+      "skew_logp": -1.7434,
+      "frac_below_025": 0.27
+    }
+  },
+  "calibration": {
+    "slope": 4.3627,
+    "intercept": 1.8984,
+    "r2": 0.8172
+  },
+  "p3_sim_contamination": 0.35,
+  "caliper_ratio_at_35pct": 5.0
+}
